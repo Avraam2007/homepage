@@ -273,3 +273,14 @@ body {
 .additional-info__languages-item {
   color: var(--secondary-text-color);
 }
+
+#clock {
+  text-align: center;
+  margin: 10px auto;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border: 3px solid;
+  border-color: var(--border-color);
+  max-width: 900px;
+  border-radius: 20px;
+}
