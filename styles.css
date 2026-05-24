@@ -283,4 +283,9 @@ body {
   border-color: var(--border-color);
   max-width: 900px;
   border-radius: 20px;
+  transition: 0.5s ease-in;
+}
+
+#clock:hover {
+  font-size: 3rem;
 }
