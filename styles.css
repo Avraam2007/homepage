@@ -12,8 +12,9 @@ body {
   --secondary-text-color: #5c5c62;
   --durability-text-color: #6a737d9c;
   --icon-color: #6a737d;
-  --border-color: #ff9a0045;
-  --text-decoration-color: #ff9a00;
+  --border-color: #2d023845;
+  --text-decoration-color: #7a038f;
+  --gradient-color: #b000cf;
 }
 
 .container {
@@ -127,9 +128,11 @@ body {
   border-radius: 50%;
   width: 100px;
   height: 100px;
+  padding: 2px;
+  background: linear-gradient(45deg ,var(--text-decoration-color), var(--gradient-color));
   object-fit: cover;
-  border: 3px solid;
-  border-color: var(--text-decoration-color);
+  /* border: 1px solid;
+  border-color: linear; */
 }
 
 /* Intro and skills styles */
